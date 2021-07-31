@@ -17,7 +17,7 @@ class Signup extends Component {
     this.setState({ password: event.target.value });
   };
   onSubmitButton = () => {
-    fetch("http://localhost:3000/register", {
+    fetch("http://smart-brain-apis.herokuapp.com/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
