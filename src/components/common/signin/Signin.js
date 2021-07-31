@@ -33,7 +33,7 @@ class Signin extends Component {
   };
   render() {
     return (
-      <main className="pa4 black-80 br2 ba dark-gray bg-white b--black-10 mv6 w-100 w-50-m w-25-l mw7 center">
+      <main className="pa4 black-80 br2 ba black b--black-50 mv6 w-100 w-50-m w-25-l mw7 center">
         <div className="measure center">
           <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
             <legend className="f4 fw6 ph0 mh0">Sign In</legend>
@@ -71,7 +71,7 @@ class Signin extends Component {
             />
           </div>
           <div className="lh-copy mt3">
-            <a href="#0" className="f6 link dim black db">
+            <a href="/signup" className="f6 link dim black db">
               Sign up
             </a>
           </div>

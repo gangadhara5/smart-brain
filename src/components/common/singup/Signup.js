@@ -37,7 +37,7 @@ class Signup extends Component {
   };
   render() {
     return (
-      <article className="pa4 black-80 br2 ba dark-gray bg-white b--black-10 mv6 w-100 w-50-m w-25-l mw7 center ">
+      <article className="pa4 black-80 br2 ba black b--black-100 mv6 w-100 w-50-m w-25-l mw7 center ">
         <main acceptCharset="utf-8">
           <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
             <legend className="f4 fw6 ph0 mh0 center">Sign Up</legend>
@@ -85,6 +85,11 @@ class Signup extends Component {
               value="Sign Up"
               onClick={this.onSubmitButton}
             />
+          </div>
+          <div className="lh-copy mt3">
+            <a href="/signin" className="f6 link dim black db">
+              Signin
+            </a>
           </div>
         </main>
       </article>
