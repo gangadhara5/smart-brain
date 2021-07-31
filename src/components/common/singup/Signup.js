@@ -31,7 +31,7 @@ class Signup extends Component {
       .then((res) => res.json())
       .then((data) => {
         if (data.id) {
-          this.props.history.push("/home");
+          this.props.history.push("/home", { data });
         }
       });
   };
